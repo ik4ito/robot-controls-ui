@@ -23,3 +23,4 @@ in any device without worrying about installing dependencies and third-party app
 
 
 ![image](https://github.com/ik4ito/robot-controls-ui/assets/20155686/574f68d9-4fd9-46d6-9ac0-b7b19488d542)
+I also added the column (ID) to the database (autoincrement); so that I can use the function (max_id) to get the last entry.
