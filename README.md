@@ -15,6 +15,11 @@ and the input direction. The addition of this file needed a change to the UI pag
 php so that I can include the fetch page inside it. I did this so that I try as much as possible
 to make the requirements without any additional dependencies, so it is a much easier UI to run
 in any device without worrying about installing dependencies and third-party apps.
+
+
 ![image](https://github.com/ik4ito/robot-controls-ui/assets/20155686/2db09131-5bae-4297-994c-1fc682dbf40d)
+
 21 is the database entry id.
+
+
 ![image](https://github.com/ik4ito/robot-controls-ui/assets/20155686/574f68d9-4fd9-46d6-9ac0-b7b19488d542)
