@@ -11,10 +11,10 @@ file just point at whatever name, password, user, your database has.
 
 Update 1:
 I made an additional file that is named "fetch.php". This file shows the ID of the last input
-and the input direction. The addition of this file needed a change to the UI page, I converted it to
+and the input direction. ~~The addition of this file needed a change to the UI page, I converted it to
 php so that I can include the fetch page inside it. I did this so that I try as much as possible
 to make the requirements without any additional dependencies, so it is a much easier UI to run
-in any device without worrying about installing dependencies and third-party apps.
+in any device without worrying about installing dependencies and third-party apps.~~ __READ UPDATE 2__
 
 
 ![image](https://github.com/ik4ito/robot-controls-ui/assets/20155686/2db09131-5bae-4297-994c-1fc682dbf40d)
@@ -26,3 +26,18 @@ in any device without worrying about installing dependencies and third-party app
 
 
 I also added the column (ID) to the database (autoincrement); so that I can use the function (max_id) to get the last entry.
+
+
+Update 2:
+I optimized the code, making the "fetch.php" file update instantly with every click,
+and I managed to change the way the SQL request were made using javascript, previously it was
+a page opening another page which caused the HTML page to be redricted with every click.
+This implementation does not work if I want to add a canvas, as it would be not practical 
+for the user to bo back to the page everytime when he is drawing the flow of motion.
+I changed it to make it an HTML request to the PHP file location.
+I do not need to <include> the php file anymore this way and I can provide the drawing canvas
+in an implementation that works flawlessly and updates instantenly. I also added a reset 
+button to the canvas.
+
+
+![image](https://github.com/ik4ito/robot-controls-ui/assets/20155686/da6682f3-cc52-49ff-82d2-1f0643c30d87)
