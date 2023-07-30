@@ -35,7 +35,7 @@ a page opening another page which caused the HTML page to be redricted with ever
 This implementation does not work if I want to add a canvas, as it would be not practical 
 for the user to go back to the page everytime when he is drawing the flow of motion.
 I changed it to make it an HTTP request to the PHP file location.
-I do not need to <include> the php file anymore this way and I can provide the drawing canvas
+I do not need to include the php file anymore this way and I can provide the drawing canvas
 in an implementation that works flawlessly and updates instantenly. I also added a reset 
 button to the canvas.
 
